@@ -1,10 +1,14 @@
-.header__group{
+body {
+    width: 100%;;
+}
+
+.header__group {
     text-align: center;
     font-family: Arial Regular;
     color: #32666b;
 }
 
-h1{
+h1 {
     font-size: 45px;
     margin-bottom: 10px;
     margin-top: 45px;
@@ -12,20 +16,20 @@ h1{
     font-weight: 900;
 }
 
-.header__p{
+.header__p {
     font-size: 16px;
     margin-bottom: 30px;
 }
 
 
-.blocks{
+.blocks {
+    width: 1050px;
     display: flex;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 0 auto;
     gap: 20px;
 }
 
-.blocks h2{
+.blocks h2 {
     margin-bottom: 10px;
     font-size: 24px;
     font-family: Arial;
@@ -33,7 +37,7 @@ h1{
     text-align: center;
 }
 
-.block{
+.block {
     padding: 20px;
     width: 340px;
     justify-content: space-around;
@@ -47,7 +51,7 @@ h1{
 
 }
 
-.rights{
+.rights {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     text-align: center;

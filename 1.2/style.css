@@ -1,4 +1,9 @@
-h1{
+
+body {
+    width: 100%;
+}
+
+h1 {
     text-align: center;
     font-family: Arial Regular;
     font-weight: bold;
@@ -9,14 +14,15 @@ h1{
 }
 
 
-.blocks{
+.blocks {
     display: flex;
-    margin-left: 230px;
-    margin-right: 230px;
+    width: 900px;
     gap: 20px;
-}
+    margin: 0 auto;
 
-.blocks h2{
+}   
+
+.blocks h2 {
     margin-bottom: 25px;
     font-size: 24px;
     font-family: Arial;
@@ -24,7 +30,7 @@ h1{
 }
 
 
-.block{
+.block {
     padding: 20px;
     width: 440px;
     justify-content: space-around;
@@ -37,7 +43,7 @@ h1{
 
 }
 
-.rights{
+.rights {
     font-family: Arial Regular;
     font-size: 14px;
     text-align: center;

@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+}
+
+.block{
+    width: 460px;
+    height: 155px;
+    border: 1px solid #dddddd;
+    margin: 10px auto;
+    padding: 25px 20px 5px 20px;
+    margin-bottom: 20px;
+   
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    padding-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #1975d1;
+    margin: 415px;
+    
+}
