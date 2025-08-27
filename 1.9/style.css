@@ -1,8 +1,8 @@
-body{
+body {
     width: 100%;
 }
 
-.block{
+.block {
     width: 760px;
     border: 1px solid #dddddd;
     border-radius: 5px;
@@ -13,29 +13,33 @@ body{
    
 }
 
-h2{
+h2 {
     font-size: 24px;
     margin-bottom: 20px;
     color: #333333;
 }
 
-p{
+ p{
     font-size: 16px;
     line-height: 1.5;
     text-align: justify;
     padding-bottom: 15px;
 }
-.btn{
+.btn {
     text-align: right;
 }
 
-button{
-    background: #4a6ea9;
+button {
+    background: #557cbb;
     border: none;
     border-radius: 3px;
     color: white;
     padding: 9px 15px;
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
+}
+
+button:hover {
+    background: #3f66a3;
 }
