@@ -1,0 +1,35 @@
+body {
+    background: #ffffff;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px 0px 32px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.sections {
+    width: 830px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+
+section {
+    padding: 30px;
+    border: 1px solid #b3e0ff;
+    width: 226px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
