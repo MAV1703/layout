@@ -1,0 +1,101 @@
+body {
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff8f2;
+}
+
+header {
+    padding: 38px 0px 21px 0px;
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+nav {
+    width: 800px;
+    height: 50px;
+    border: 1px solid #ffdbc3;
+    background: #fff0e6;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.buttons {
+    display: flex;
+}
+
+
+button{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #e67e22;
+    border: none;
+    background: transparent;
+}
+
+button:first-child {
+    background: #e67e22;
+    color: white;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #e67e22;
+    color: white;
+    cursor: pointer;
+}
+
+.content {
+    box-sizing: border-box;
+    width: 530px;
+    margin: 0 auto;
+    text-align: justify;
+    border: 1px solid #ffdbc3;
+    background: #fff5eb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 15px;
+}
+
+.content p {
+    padding-bottom: 8px;
+}
+
+footer {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 530px;
+    display: flex;
+    gap: 65px;
+    padding: 22px 15px 50px;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.links h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #e68127;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    color: #8d5524;
+}
