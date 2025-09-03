@@ -1,0 +1,122 @@
+body {
+    box-sizing: border-box;
+    background: #fff9f9;
+    width: 100%;
+}
+
+header {
+    padding: 46px 20px 15px ;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #333333;
+}
+
+nav {
+    box-sizing: border-box;
+    width: 1310px;
+    height: 50px;
+    margin: 15px auto;
+    border: 1px solid #d1e7ff;
+    border-radius: 5px;
+    background: #f0f8ff;
+}
+
+nav button {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #2c5e8f;
+    background: transparent;
+    border: none;
+    border-radius: 3px;
+    padding: 2px 8px;
+}
+
+nav button:hover {
+    background: #c8dff5;
+}
+
+.post {
+    box-sizing: border-box;
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ffd6e0;
+    border-radius: 10px;
+    padding: 24px 15px 20px 21px;
+    margin-bottom: 22px;
+}
+
+.post__top {
+    font-family: monospace;
+    font-size: 14px;
+    color: rgb(138, 109, 59);
+    margin-bottom: 8px;
+}
+
+.separator {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.author {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5b8c5a;
+    margin-left: -3px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color:rgb(51, 51, 51);
+    margin-bottom: 22px;
+}
+
+.content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: rgb(102, 102, 102);
+    padding-bottom: 18px;
+}
+
+.post a {
+    text-decoration: none;
+    margin-left: 682px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #a94442;
+}
+
+.author:hover, .post a:hover {
+    text-decoration: underline;
+}
+
+.buttons {
+    margin: 25px 22px 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.buttons button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 8px 15px;
+    border : 1px solid #d9c2ff;
+    border-radius: 3px;
+    color: #333333;
+    background-color: #f0e6ff;
+}
+
+.buttons button:hover {
+    background: #d9c2ff;
+}
