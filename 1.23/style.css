@@ -1,0 +1,236 @@
+body {
+    box-sizing: border-box;
+    background: #f5f5f5;
+    width: 100%;
+}
+
+.header__logo__name {
+    width: 100%;
+}
+
+.header__logo {
+    transform: rotate(-2deg);
+    color: #001858;
+    border: 1px solid #f8e2d1;
+    box-shadow: 2px 2px 2px #e6e6e6;
+    margin: -40px 41px;
+    text-align: center;
+    padding: 11px 10px;
+    background: #fef6e4;
+    box-sizing: border-box;
+    width: 113px;
+    position: absolute;
+
+}
+
+
+.header__logo h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+.header__logo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.header__name {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    margin: 82px 0px 22px 0px;
+    color: #333333;
+}
+
+nav {
+    width: 1310px;
+    height: 50px;
+    margin: 0 auto;
+    border: 1px solid #f3d2c1;
+    border-radius: 3px;
+    background: #fef6e4;
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    margin-bottom: 10px;
+    
+}
+
+nav button {
+    margin: 10px 0px;
+    height: 33px;
+    padding: 5px 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #192d66;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    background: transparent;
+}
+
+nav button:first-child {
+    background: #8bd3dd;
+    font-weight: 600;
+}
+
+nav button:hover {
+    cursor: pointer;
+    background: #f3d2c1;
+}
+
+nav button:first-child:hover {
+    background: #8bd3dd;
+}
+
+main {
+    display: flex;
+}
+
+.left-side__buttons {
+    margin: 19px 31px 20px 77px;
+    padding: 24px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    box-sizing: border-box;
+    width: 248px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+
+
+.left-side__buttons button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #0066cc;
+    padding: 7px 10px;
+    text-align: left;
+    background: transparent;
+    border: none;
+    border-radius: 3px;
+}
+
+.left-side__buttons button:hover {
+    background: #e7f3f5;
+}
+
+.about {
+    margin: 22px 22px 20px 77px;
+    box-sizing: border-box;
+    width: 248px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background: #ffffff;
+    padding: 18px 12px 32px 15px;
+}
+
+.about h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #444444;
+    margin-bottom: 23px;
+}
+
+.about p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #747474;
+    line-height: 21px;
+}
+
+.block{
+    margin: 20px 0px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background: #ffffff;
+    padding: 27px 20px 20px 20px;
+    width: 920px;
+}
+
+
+.block__header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.block h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #444444;
+    margin-bottom: 19px;
+}
+
+.block__header p {
+    scale: 1.3;
+    color: #4d96ff;
+}
+
+.block__header p:hover {
+    scale: 1.5;
+    transition: 0.5s;
+    color: #0066cc;
+    cursor: pointer;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 15px;
+}
+
+.block__footer {
+    display: flex;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.date {
+    
+    color: rgb(136, 136, 136);
+}
+
+.block__footer a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.block__footer a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin: 34px 0px 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #444545;
+    border: 1px solid #a6e1fa;
+    border-radius: 3px;
+    background: #e2f3f5;
+    padding: 5px 10px;
+}
+
+
+footer button:hover {
+    background: #a6e1fa;;
+}
+
+.rights {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(136, 136, 136);
+    margin: 20px 0px 30px;
+}
